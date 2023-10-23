@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gioco dei dadi</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1> Il gioco dei dadi</h1>
-    <div class="RisultatiP">
-        <p id="UserBet"></p>
-        <p id="CpuBet"></p>
-         <p id="Whowin"></p>
+    <div class="container">
+        <h1 class="title"> Il gioco dei dadi</h1>
+        <div class="row">
+            <div class="RisultatiP">
+                <p id="UserBet"></p>
+                <p id="CpuBet"></p>
+                <p id="Whowin"></p>
+            </div>  
+            <div class="btn-wrapper">
+
+                <button type="click" class="BetSubmit btn"> inizia </button>
+                <button type="click" class="GameReset btn"> Reset </button>
+
+            </div>
+
+
+
+        </div>
     </div>
     
+   
+    
 
-    <button type="click" class="BetSubmit"> inizia </button>
-    <button type="click" class="GameReset"> Reset </button>
+    
     <script src="js/script.js"></script>
 </body>
 </html>
