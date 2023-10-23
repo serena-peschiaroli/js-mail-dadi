@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(248, 215, 171);
+}
+
+
+.container {
+    width: 80%;
+    margin: 3rem auto;
+    background-color: antiquewhite;
+    min-height: 500px;
+}
+
+.title {
+    text-align: center;
+    padding: 2rem;
+    
+
+}
+
+.row
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.accesso {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    height: 2rem;
+    line-height: 2rem;
+    vertical-align: center;
+    margin-bottom: 1.5rem;
+    
+}
+
+#submitMail {
+    border-radius: 4px;
+    border: 1px solid g ray;
+    height: 2rem;
+    text-align: center;
+    
+}
+
+.btnaccess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btn {
+    padding: 0.5rem;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    border: none;
+
+}
+.MailSubmit {
+    padding: 0.5rem 1rem;
+}
+
+.access {
+
+    margin-top: 3rem;
+   
+
+}
+
+#CanIGetInYes {
+    font-size: 1rem;
+    color: green;
+}

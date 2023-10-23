@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Accesso</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <input type="text" name="usermail" placeholder="Inserisci la tua mail" id="submitMail">
-    <button type="submit" class="MailSubmit">Invia</button>
-    <button class="ResetMail"> Cancella </button>
-    <div class="access">
-        <p id="CanIgetIn"></p>
+    <div class="container">
+        <h1 class="title"> Per accedere, inserisci il tuo indirizzo e-mail</h1>
+        <div class="row">
+
+            <div class="accesso">
+                <label for="usermail"> Mail</label>
+               <input type="text" name="usermail" placeholder="Inserisci la tua mail" id="submitMail" size="50" > 
+              
+            </div>
+
+            <div class="btnaccess">
+                <button type="submit" class="MailSubmit btn">Invia</button>
+                <button class="ResetMail btn"> Cancella </button>
+            </div>
+            <div class="access">
+                <p id="CanIgetIn"></p>
+                
+           </div>
+        </div>
+
     </div>
+    
+
     <script src="js/script.js"></script>
 </body>
 </html>
